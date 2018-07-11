@@ -1,0 +1,19 @@
+{
+  "name": "serienBrief",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "repository": "https://www.github.com/ecnordbund/serienBrief",
+  "author": "Sebastian <2pi_r2@gmx.de>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc index.ts -d --outDir ./dist"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "docxtemplater": "^3.6.6",
+    "jszip": "2"
+  }
+}
